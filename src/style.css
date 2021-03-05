@@ -26,7 +26,9 @@ canvas {
     border: none;
     color: white;
     background-color: red;
-    padding: 10px;
-    border-radius: 25%;
+    padding: 10px 20px;
+    border-radius: 15px;
     margin: 25px;
+    cursor: pointer;
+    outline: none;
 }
