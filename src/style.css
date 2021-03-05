@@ -12,3 +12,21 @@ canvas {
   width: 100%;
   height: 100%;
 }
+
+#controllers {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 25px;
+    border-radius: 25%;
+}
