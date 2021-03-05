@@ -1,6 +1,7 @@
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader'
+import { WireframeGeometry } from 'three'
 
 class Model {
     constructor(obj) {
@@ -23,7 +24,8 @@ class Model {
 
             this.mesh = response.scene.children[0]
             this.material = new THREE.MeshBasicMaterial({
-                color: 'red'
+                color: 'red',
+                wireframe: true
             })
 
             this.mesh.material = this.material

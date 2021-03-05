@@ -61,11 +61,11 @@ const skull = new Model({
     scene: scene
 })
 
-const horse = new Model({
-    name: 'Horse',
-    file: './models/Horse.glb',
-    scene: scene
-})
+// const horse = new Model({
+//     name: 'Horse',
+//     file: './models/Horse.glb',
+//     scene: scene
+// })
 
 
 /*------------------------------
