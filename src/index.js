@@ -35,7 +35,7 @@ const material = new THREE.MeshBasicMaterial( {
   color: 0x00ff00,
 } );
 const cube = new THREE.Mesh( geometry, material );
-scene.add( cube );
+// scene.add( cube );
 
 
 /*------------------------------
@@ -57,12 +57,14 @@ Models
 ------------------------------*/
 const skull = new Model({
     name: 'Skull',
-    file: './models/Skull.glb'
+    file: './models/Skull.glb',
+    scene: scene
 })
 
 const horse = new Model({
     name: 'Horse',
-    file: './models/Horse.glb'
+    file: './models/Horse.glb',
+    scene: scene
 })
 
 
