@@ -1,5 +1,6 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import Model from './model'
 
 /*------------------------------
 Renderer
@@ -50,6 +51,19 @@ const gridHelper = new THREE.GridHelper( 10, 10 );
 scene.add( gridHelper );
 const axesHelper = new THREE.AxesHelper( 5 );
 scene.add( axesHelper );
+
+/*------------------------------
+Models
+------------------------------*/
+const skull = new Model({
+    name: 'Skull',
+    file: './models/Skull.glb'
+})
+
+const horse = new Model({
+    name: 'Horse',
+    file: './models/Horse.glb'
+})
 
 
 /*------------------------------
