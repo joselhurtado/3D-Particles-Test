@@ -55,17 +55,17 @@ scene.add( axesHelper );
 /*------------------------------
 Models
 ------------------------------*/
-const skull = new Model({
-    name: 'Skull',
-    file: './models/Skull.glb',
-    scene: scene
-})
-
-// const horse = new Model({
-//     name: 'Horse',
-//     file: './models/Horse.glb',
+// const skull = new Model({
+//     name: 'Skull',
+//     file: './models/Skull.glb',
 //     scene: scene
 // })
+
+const horse = new Model({
+    name: 'Horse',
+    file: './models/Horse.glb',
+    scene: scene
+})
 
 
 /*------------------------------
