@@ -1,5 +1,5 @@
 # 3d-particles
-*A starter repository from the Awwwards workshop class "Impress everyone with a 3D particle scene starting from bad models"*
+*A starter using 3D particle scene*
 
 ---
 ## Requirements
